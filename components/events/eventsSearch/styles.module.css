@@ -1,0 +1,14 @@
+.inputsContainer {
+  text-align: center;
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+}
+
+.inputsContainer button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}

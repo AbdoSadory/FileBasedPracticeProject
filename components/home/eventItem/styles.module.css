@@ -1,0 +1,29 @@
+.eventItemContainer {
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  background-color: var(--backgroundColor2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.eventItemContainer:last-child {
+  margin-bottom: 0px;
+}
+.eventItemContainer > div {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eventItemContainer div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
